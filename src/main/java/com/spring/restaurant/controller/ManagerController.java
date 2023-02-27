@@ -1,6 +1,5 @@
 package com.spring.restaurant.controller;
 
-import com.spring.restaurant.dao.MenuDetails;
 import com.spring.restaurant.dto.MenuDto;
 import com.spring.restaurant.service.ManagerServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +12,7 @@ import javax.validation.Valid;
 
 import java.util.List;
 
-import static com.spring.restaurant.constants.Constants.*;
+import static com.spring.restaurant.utils.Constants.*;
 
 @Controller
 @RequestMapping(MANAGER)
